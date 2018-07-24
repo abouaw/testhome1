@@ -21,7 +21,7 @@ namespace TestHome1.Models
 
         [DataType(DataType.Date)]
         [Required(ErrorMessage = "Champ obligatoire")]
-        [display(Name= "Date d'embauche")]
+        [Display(Name= "Date d'embauche")]
         public DateTime DateEmbauche { get; set; }
     }
 }
